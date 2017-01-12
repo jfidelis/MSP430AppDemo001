@@ -10,14 +10,12 @@ Adc::~Adc(void)
 {
 }
 
-// Isso é um teste
 void Adc::Setup()
 {
 	ADC10AE0 = 0;
 	ADC10CTL0 &= ~ENC;
 	ADC10CTL0 = SREF_1 | REFON | ADC10ON;	
 }
-
 
 unsigned int Adc::DoSingleMeasurement(int channelNumber)
 {

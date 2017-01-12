@@ -42,6 +42,7 @@
     <ClCompile Include="Uart.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="mcu.props" />
     <None Include="MCU.xml" />
     <None Include="MSP430AppDemo001-Debug.vgdbsettings" />
