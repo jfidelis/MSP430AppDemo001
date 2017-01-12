@@ -10,7 +10,7 @@ Adc::~Adc(void)
 {
 }
 
-
+// Isso é um teste
 void Adc::Setup()
 {
 	ADC10AE0 = 0;
